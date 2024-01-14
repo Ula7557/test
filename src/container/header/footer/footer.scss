@@ -1,0 +1,30 @@
+.footer {
+    border-top: 1px solid #BBB;
+    padding: 20px 0;
+    margin-top: 69px;
+    .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            color: #ACACAC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .footer .footer-inner {
+        flex-direction: column;
+    }
+    .footer .footer-inner span {
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+}

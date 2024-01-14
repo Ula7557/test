@@ -1,0 +1,81 @@
+.articlas-card {
+    width: 45%;
+    margin-top: 150px;
+        position: relative;
+        img {
+            width: 100%;
+            height: 400px;
+        }
+
+        .articlas-card-inner {
+            position: absolute;
+            width: 400px;
+            background: #181818;
+            right: 0;
+            bottom: -100px;
+            padding: 10px;
+            span {
+                color: #888;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+            }
+            h6 {
+                color: #FFF;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+            p {
+                color: #AAA;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+            }
+            button {
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%; 
+                letter-spacing: 2.88px;
+                border: none;
+                background: none;
+                cursor: pointer;
+                margin-top: 23px;
+            }
+        }
+}
+
+@media screen and (max-width: 1024px) {
+    .articlas-card .articlas-card-inner h6 {
+        font-size: 24px;
+    }
+    .articlas-card .articlas-card-inner span {
+        font-size: 11px;
+    }
+    .articlas-card .articlas-card-inner p {
+        font-size: 13px;
+    }
+    .articlas-card .articlas-card-inner button {
+        font-size: 12px;
+    }
+    .articlas-card img {
+        height: 320px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .articlas-card {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .articlas-card .articlas-card-inner {
+        width: 290px;
+    }
+ }

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+}

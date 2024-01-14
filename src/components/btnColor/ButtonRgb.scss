@@ -1,0 +1,45 @@
+.button-block {
+    position: relative;
+    display: inline-flex;
+
+    .button {
+        display: inline-flex;
+        padding: 20px 30.39px 20px 30px;
+        background: #000;
+        z-index: 3;
+        text-decoration: none;
+
+        span {
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px; /* 100% */
+            
+        }
+    }
+    .button-shodow {
+        background: linear-gradient(97deg, #4D34E3 8%, #E93470 91%);
+        position: absolute;
+        z-index: 2;
+        bottom: -10px;
+        right: -15px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .button-block .button span {
+        font-size: 14px;
+    }
+
+    .button-block .button {
+        padding: 15px 23px;
+    }
+
+    .header-inner_right {
+        margin-right: 20px;
+    }
+}

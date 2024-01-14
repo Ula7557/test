@@ -1,0 +1,60 @@
+.accordion-inner {
+    .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+        background-color: #222;
+        margin-bottom: 10px;
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+    }
+
+    .css-1m4ljmh-MuiTypography-root {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%; 
+        width: 100%;
+    }
+
+    
+
+    .css-ahj2mt-MuiTypography-root {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%; 
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        color: white;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .accordion-inner .css-1m4ljmh-MuiTypography-root {
+        font-size: 16px;
+    }
+    .accordion-inner .css-ahj2mt-MuiTypography-root {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .accardion .accardion-inner .global-description {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .accordion-inner .css-1m4ljmh-MuiTypography-root {
+        font-size: 12px;
+    }
+    .accordion-inner .css-ahj2mt-MuiTypography-root {
+        font-size: 14px;
+    }
+
+    .accordion-inner .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+        max-width: 326px;
+    }
+
+    
+}
