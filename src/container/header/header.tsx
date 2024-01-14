@@ -33,6 +33,7 @@ const Header = () => {
     }
   }, [width,state])
 
+  
     return (
        <>
         <div className={`header ${state ? '' : 'none'}`}>
